@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><?xml-stylesheet type="text/xsl" href="xsl\feed-to-html.xsl"?>
+<feed xmlns="http://webis.de/feedreader/model/atom">
+    <id>http://webis.de/feedreader/model/atom</id>
+    <title>WebTec Resources</title>
+    <updated>2017-03-02T11:49:12.563+01:00</updated>
+    <author>
+        <name>Webis Group</name>
+    </author>
+    <subtitle>
+A collection of articles and resources related to web technologies
+</subtitle>
+    <entry>
+        <id>f2b46170</id>
+        <title>A Complete Guide to Flexbox</title>
+        <updated>2016-12-27T17:49:31Z</updated>
+        <author>
+            <name>Chris Coyier</name>
+        </author>
+        <link href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/"></link>
+        <summary>
+Das Flexbox Layoutmodul (zur Zeit W3C Last Call Working Draft) hat das Ziel einen effizienteren Weg für das Anordnen, Ausrichten und Verteilen von Platz einzelner Elemente in einem Container zur Verfügung zu stellen, auch wenn die Größe der Elemente unbekannt und/oder dynamisch ist (daher das Wort „flex“).
+</summary>
+    </entry>
+    <entry>
+        <id>f3ce2b9e</id>
+        <title>Mozilla Developer Network (MDN)</title>
+        <updated>2016-12-13T13:47:01Z</updated>
+        <author>
+            <name>Mozilla</name>
+        </author>
+        <link href="https://developer.mozilla.org/de/mozilla"></link>
+        <summary>
+Das Mozilla Developer Network (MDN) bietet Informationen zu Open-Web-Technologien wie HTML, CSS und APIs für Websites und HTML5-Apps. Es dokumentiert auch die Mozilla-Produkte, wie Firefox OS.
+</summary>
+    </entry>
+    <entry>
+        <id>91f96f80</id>
+        <title>Can I use… Support tables for HTML5, CSS3, etc</title>
+        <updated>2016-11-19T09:51:08Z</updated>
+        <author>
+            <name>Alexis Deveria</name>
+        </author>
+        <link href="http://caniuse.com/"></link>
+        <summary>
+Can I use stellt aktuelle Browser-Support-Tabellen für die Unterstützung von Front-End-Webtechnologien von Desktop- und Mobilbrowsern zur Verfügung.
+</summary>
+    </entry>
+    <entry>
+        <id>c181b2a6</id>
+        <title>CSS Positioning 101</title>
+        <updated>2010-11-16T19:30:00Z</updated>
+        <author>
+            <name>Noah Stokes</name>
+        </author>
+        <link href="http://alistapart.com/article/css-positioning-101"></link>
+        <summary>Einführung in die CSS position-Eigenschaft</summary>
+    </entry>
+    <entry>
+        <id>68d8b3b3</id>
+        <title>Smashing Magazine: Absolute Centering</title>
+        <updated>2013-08-09T19:30:00Z</updated>
+        <author>
+            <name>Stephen Shaw</name>
+        </author>
+        <link href="https://www.smashingmagazine.com/2013/08/absolute-horizontal-vertical-centering-css/"></link>
+        <summary>
+Artikel über absolute horizontal awebtec.atom.xmlnd vertical centering in CSS und die Alternativen.
+</summary>
+    </entry>
+    <entry>
+        <id>4e5b5d18</id>
+        <title>Mark Pilgrim: Dive into HTML5</title>
+        <updated>2017-01-17T10:48:00Z</updated>
+        <author>
+            <name>Mark Pilgrim</name>
+        </author>
+        <link href="http://diveintohtml5.info"></link>
+        <summary>
+Frei verfügbares Buch über HTML5 und diverse moderne Browser APIs
+</summary>
+    </entry>
+    <entry>
+        <id>e0da79c2</id>
+        <title>A List Apart: Responsive Web Design</title>
+        <updated>2010-05-25T19:30:00Z</updated>
+        <author>
+            <name>Ethan Marcotte</name>
+        </author>
+        <link href="http://alistapart.com/article/responsive-web-design"></link>
+        <summary>
+Der meistzitierte Artikel und die Standardreferenz in Sachen responsive webdesign.
+</summary>
+    </entry>
+    <entry>
+        <id>7838b86</id>
+        <title>Java ist auch eine Insel</title>
+        <updated>2012-05-01T12:23:53Z</updated>
+        <author>
+            <name>Christian Ullenboom</name>
+        </author>
+        <link href="http://openbook.rheinwerk-verlag.de/javainsel/"></link>
+        <summary>Das Standardwerk für die Java Programmiersprache</summary>
+    </entry>
+    <entry>
+        <id>664a9058</id>
+        <title>Java SE 8 Dokumentation</title>
+        <updated>2017-01-17T10:51:00Z</updated>
+        <author>
+            <name>Oracle</name>
+        </author>
+        <link href="https://docs.oracle.com/javase/8/docs/api/index.html"></link>
+        <summary>Die API-Documentation für Java 8</summary>
+    </entry>
+    <entry>
+        <id>3ef5c073</id>
+        <title>JAXB User Guide</title>
+        <updated>2017-01-17T10:51:00Z</updated>
+        <author>
+            <name>java.net</name>
+        </author>
+        <link href="https://jaxb.java.net/guide/"></link>
+        <summary>User Guide für das Java XML Binding</summary>
+    </entry>
+    <entry>
+        <id>4a7351f7</id>
+        <title>Jersey User Guide</title>
+        <updated>2017-01-17T10:58:00Z</updated>
+        <author>
+            <name>java.net</name>
+        </author>
+        <link href="https://jersey.java.net/nonav/documentation/latest/"></link>
+        <summary>
+User Guide für die Referenz-Implemtentierung der JAX-RS Spezifikation, der Java-API für Restful Webservices.
+</summary>
+    </entry>
+    <entry>
+        <id>3381134e</id>
+        <title>REST API Tutorial</title>
+        <updated>2015-06-16T15:33:24.944+02:00</updated>
+        <author>
+            <name>RestApiTutorial.com</name>
+        </author>
+        <link href="http://www.restapitutorial.com/httpstatuscodes.html"></link>
+        <summary>
+Good overview of the HTTP response codes. A dive into the tutorials might be useful, too.
+</summary>
+    </entry>
+    <entry>
+        <id>811cb526</id>
+        <title>Fake-Push Techniques 1</title>
+        <updated>2010-11-30T12:00:00Z</updated>
+        <author>
+            <name>Eric Bidelman</name>
+        </author>
+        <link href="https://www.html5rocks.com/en/tutorials/eventsource/basics/"></link>
+        <summary>
+Artikel zu Polling, Long-Polling, SSE und WebSockets
+</summary>
+    </entry>
+    <entry>
+        <id>22e5c4e0</id>
+        <title>Fake-Push Techniques 2</title>
+        <updated>2012-05-12T12:00:00Z</updated>
+        <author>
+            <name>Dmitry Sheiko</name>
+        </author>
+        <link href="http://dsheiko.com/weblog/websockets-vs-sse-vs-long-polling"></link>
+        <summary>Artikel zu Long-Polling, SSE und WebSockets</summary>
+    </entry>
+    <entry>
+        <id>cebda984</id>
+        <title>Quirksmode.org</title>
+        <updated>2017-01-17T11:00:00Z</updated>
+        <author>
+            <name>Peter-Paul Koch</name>
+        </author>
+        <link href="https://www.quirksmode.org/compatibility.html"></link>
+        <summary>
+Die Cross Browser Referenz für die DOM-API von Peter-Paul Koch
+</summary>
+    </entry>
+    <entry>
+        <id>afdc3cc7</id>
+        <title>JavaScript Design Patterns</title>
+        <updated>2012-08-21T12:00:00Z</updated>
+        <author>
+            <name>Addy Osmani</name>
+        </author>
+        <link href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/"></link>
+        <summary>
+Design Patterns, nicht nur für JavaScript, die der fortgeschrittene Programmierer kennen sollte.
+</summary>
+    </entry>
+</feed>

@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://webis.de/feedreader/model/atom">
+  <xs:element name="feed">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="id" type="xs:string" maxOccurs="1"/>
+        <xs:element name="title" type="xs:string" maxOccurs="1"/>
+        <xs:element name="updated" type="xs:dateTime" maxOccurs="1"/>
+        <xs:element name="author" maxOccurs="1">
+          <xs:complexType>
+            <xs:sequence minOccurs="1" maxOccurs="1">
+              <xs:element name="name" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="subtitle" type="xs:string" minOccurs="0" maxOccurs="1"/>
+        <xs:element name="entry" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" type="xs:string" maxOccurs="1"/>
+              <xs:element name="title" type="xs:string" maxOccurs="1"/>
+              <xs:element name="updated" type="xs:dateTime" maxOccurs="1"/>
+              <xs:element name="author" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence minOccurs="1" maxOccurs="1">
+                    <xs:element name="name" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="link" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="href" use="required"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="summary" type="xs:string" minOccurs="0" maxOccurs="1"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="entry">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" type="xs:string" maxOccurs="1"/>
+              <xs:element name="title" type="xs:string" maxOccurs="1"/>
+              <xs:element name="updated" type="xs:dateTime" maxOccurs="1"/>
+              <xs:element name="author" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence minOccurs="1" maxOccurs="1">
+                    <xs:element name="name" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="link" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute type="xs:string" name="href" use="required"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="summary" type="xs:string" minOccurs="0" maxOccurs="1"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+</xs:schema>

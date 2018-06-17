@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Reader</title>
+
+    <link rel="stylesheet" href="css/feedreader.css">
+    <style>
+    input,
+    input[type="submit"],
+    textarea {
+        box-sizing: border-box;
+        margin: 0 0 1.5rem;
+        padding: 5px;
+        border: 1px solid #999;
+        font-size: 1em;
+        font-family: Consolas, Courier, monospace;
+    }
+
+    textarea {
+        display: block;
+        width: 100%;
+        resize: vertical;
+    }
+
+    input {
+        display: block;
+        width: 100%;
+    }
+    </style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <header class="site-head">
+            <a href="#" class="site-title">
+                <img src="img/feed.svg" alt="Feed SVG icon: Two white signal waves on an orange background.">
+                <h1>Reader</h1>
+            </a>
+        </header>
+
+        <div class="page-content">
+            <aside>
+                <h2>WebTec Resources</h2>
+                <p>A collection of articles and resources related to web technologies.</p>
+            </aside>
+
+            <main>
+                <h2>Add a New Entry</h2>
+                <form id="add-entry" action="Feed" method="post">
+                    <div>
+                        <label for="title">Title:</label>
+                        <input class="input" id="title" name="title" placeholder="The HTML <form> element" required>
+                    </div>
+                    <div>
+                        <label for="url">URL:</label>
+                        <input class="input" type="url" id="url" name="url" placeholder="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form" required>
+                    </div>
+                    <div>
+                        <label for="author">Author:</label>
+                        <input class="input" id="author" name="author" placeholder="Mozilla" required>
+                    </div>
+                    <div>
+                        <label for="summary">Summary:</label>
+                        <textarea class="input" id="summary" name="summary" rows="3" placeholder="The HTML &lt;form&gt; element represents a document section that contains interactive controls to submit information to a web server." required></textarea>
+                    </div>
+                    <input type="submit" id="submit" value="Add new entry">
+                </form>
+            </main>
+        </div>
+    </div>
+
+</body>
+</html>
